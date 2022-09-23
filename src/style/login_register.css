@@ -1,0 +1,475 @@
+.dd4-sign-in .main-bg {
+  /* background:url(/images/login/sign-in-bg-ffa04979fcaf2139d3a4a472c519c11e.png) top center no-repeat; */
+  padding: 30px 0 20px 0;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dd4-register .main-bg {
+  /* background:url(/images/login/register-bg-6fdbf7eedc79ebcaf3e561cae3b03ce5.png) top right no-repeat; */
+  padding: 30px 0 20px 0;
+}
+
+.dd4-reset-pwd .main-bg {
+  /* background:url(/images/login/reset-pwd-bg-5f9c76ad792d75d227878ffb9e34ac09.png) top center no-repeat; */
+  padding: 6% 0 20px 0;
+}
+
+.l-r-wrap {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #fff;
+}
+
+.box .tab a {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 14px 0;
+  color: #333;
+  font-size: 20px;
+  border-bottom: 1px solid #ECEBEB;
+}
+
+.box .tab a.act {
+  color: #f7a900;
+  border-bottom: 2px solid #f7a900;
+}
+
+.input-box {
+  padding: 21px 40px 40px 40px;
+}
+
+.login-line {
+  text-align: center;
+  margin-top: 25px;
+  position: relative;
+}
+
+.login-line:after {
+  position: absolute;
+  right: 0;
+  top: 11px;
+  z-index: 2;
+  width: 32%;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.login-line:before {
+  width: 32%;
+  position: absolute;
+  left: 0;
+  top: 11px;
+  z-index: 2;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.input-box p {
+  color: #777;
+  font-size: 16px;
+}
+
+.form-box .form-input {
+  margin-bottom: 15px;
+}
+
+.form-box label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  display: block;
+}
+
+.form-box input {
+  border: 1px solid #e5e5e5;
+  padding: 9px 15px 10px 15px;
+  width: 100%;
+}
+
+.form-box input.focus {
+  border: 1px solid #f7a900;
+}
+
+.form-box input.err {
+  border: 1px solid #ff0000;
+}
+
+.form-box .submit-btn a,
+.sign-guest a {
+  background-color: #f7a900;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px 0;
+  display: block;
+  transition: all .5s ease;
+}
+
+.sign-guest a {
+  background-color: #f78600;
+}
+
+.form-box .submit-btn a:hover {
+  background-color: #f78600;
+}
+
+.form-box .code span {
+  background: url(../assets/image/bg-7a0d4bc335d3c02225de9aaf61e43bde.png) 1px -260px no-repeat;
+  display: inline-block;
+  width: 26px;
+  height: 22px;
+  cursor: pointer;
+  vertical-align: super;
+}
+
+.form-box .code input {
+  width: 58%;
+  float: left;
+  margin-right: 20px;
+}
+
+.form-box .code a {
+  margin-right: 10px;
+}
+
+.input-box .or {
+  margin-top: 23px;
+}
+
+.input-box .or a.forgot-pwd:hover {
+  text-decoration: underline;
+}
+
+.input-box .or .line {
+  margin: 17px 0 25px 0;
+}
+
+.input-box .or .line:before,
+.input-box .or .line:after {
+  width: 36%;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.dd4-sign-in p.ifyou {
+  margin-bottom: 21px;
+}
+
+.d-copyright {
+  color: #fff;
+}
+
+.dd4-register .d-copyright {
+  color: #666;
+}
+
+.validate-error {
+  color: #ff0000;
+  margin-top: 9px;
+  display: none;
+}
+
+.dd4-sign-in .remember {
+  /* padding-top: 10px; */
+}
+
+/*重置密码样式*/
+.dd4-reset-pwd .input-box {
+  padding: 42px 40px 50px 40px;
+}
+
+.dd4-reset-pwd .input-box h3,
+.dd4-reset-pwd-2 h3 {
+  font-size: 25px;
+  color: #333;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.dd4-reset-pwd .l-r-wrap {
+  width: 100%;
+  max-width: 533px;
+}
+
+.dd4-reset-pwd .input-box input#email-address {
+  width: 370px;
+}
+
+.dd4-reset-pwd .input-box input#code {
+  width: 220px;
+}
+
+.dd4-reset-pwd .input-box .email-tip p {
+  line-height: 30px;
+}
+
+.dd4-reset-pwd .input-box .email-tip .text1 p {
+  color: #333;
+  font-size: 16px;
+}
+
+.dd4-reset-pwd .input-box .email-tip .text2 p {
+  color: #666;
+  font-size: 14px;
+}
+
+.dd4-reset-pwd .input-box .email-tip .text1 p span {
+  color: #ff0000;
+}
+
+.dd4-reset-pwd .input-box .email-tip .text2 p a {
+  text-decoration: underline;
+}
+
+.dd4-reset-pwd .s-btn {
+  margin-bottom: 0;
+}
+
+/*注册成功样式*/
+.verify-page .tip-text {
+  padding: 75px 0 65px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.verify-page .tip-text a,
+.send-email .re-text>a {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f7a900;
+  color: #fff;
+  display: inline-block;
+  transition: all .5s ease;
+}
+
+.verify-page .tip-text a:hover,
+.send-email .re-text>a:hover {
+  background-color: #f78600;
+}
+
+.verify-page .tip-text h3 {
+  color: #222;
+  font-size: 26px;
+  margin: 15px 0 25px 0;
+  font-weight: normal;
+}
+
+.verify-page .tip-text p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.verify-page .tip-text p.t-welcome {
+  font-size: 14px;
+}
+
+.verify-page .tip-text p.t-tip {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 23px;
+}
+
+.verify-page .tip-text p span {
+  color: #ff0000;
+}
+
+.send-email {
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+
+/* .send-email .re-text{width: 57%;float: left;padding-top: 50px;}
+.send-email .re-img{width: 43%;float: left;}
+.send-email .re-img img{max-width: 100%;}
+.get-dd4 .re-text{width: 50%;float: left;}
+.get-dd4 .re-img{width: 50%;float: left;} */
+.send-email .re-text {
+  width: 61%;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.verify-page .re-text p {
+  line-height: 25px;
+  color: #333;
+  font-size: 16px;
+}
+
+.verify-page .re-text p a {
+  text-decoration: underline;
+  color: #333;
+}
+
+.verify-page .re-text p a:hover {
+  color: #ff0000;
+}
+
+.verify-page .re-text p span {
+  color: #ff0000;
+}
+
+.verify-page .re-text h3 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.verify-page .d-container {
+  position: relative;
+}
+
+.verify-page .send-email .re-imgs {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.verify-page .get-dd4 {
+  padding: 60px 0 85px 0;
+}
+
+.verify-page .get-dd4 .re-imgs {
+  position: absolute;
+  left: 65px;
+  top: 0;
+  z-index: 1;
+}
+
+.verify-page .get-dd4 .re-text {
+  padding: 110px 20px 120px 20px;
+  width: 45%;
+  float: right;
+}
+
+.verify-page .get-dd4 .re-text p {
+  margin-top: 30px;
+  line-height: 26px;
+}
+
+.verify-page .re-btn a {
+  margin-right: 30px;
+  width: 163px;
+  height: 55px;
+  display: inline-block;
+  background: url(../assets/image/bg-7a0d4bc335d3c02225de9aaf61e43bde.png) no-repeat;
+}
+
+.verify-page .re-btn a.googleplay {
+  background-position: 0 -310px;
+}
+
+.verify-page .re-btn a.appstore {
+  background-position: 0 -374px;
+}
+
+.verify-page .re-btn a.googleplay:hover {
+  background-position: -168px -310px;
+}
+
+.verify-page .re-btn a.appstore:hover {
+  background-position: -168px -374px;
+}
+
+.bg-img {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*重新设置新密码页面*/
+.dd4-reset-pwd-2 {
+  padding: 6% 0 20px 0;
+}
+
+.dd4-reset-pwd-2 .input-box {
+  padding: 40px 40px 50px 40px;
+}
+
+.reset-pwd-2 .tip-text {
+  border: none;
+  padding: 100px 0 110px 0;
+}
+
+.reset-pwd-2 {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.reset-pwd-2 .tip-text h3 {
+  margin: 47px 0 48px 0;
+}
+
+.reset-pwd-2 .a-btn a {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+.reset-pwd-2 .return-previous {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1350px) {
+  .verify-page .send-email .re-text {
+    padding-left: 10px;
+  }
+
+  .verify-page .get-dd4 .re-imgs {
+    left: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .jss31 {
+    width: 48%;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .grid__item {
+    width: 100% !important;
+  }
+}
+
+.grid__item {
+  width: 33.3%;
+  margin: 0 auto;
+}
+
+.page-width {
+  padding: 0 16px;
+}

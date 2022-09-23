@@ -1,0 +1,298 @@
+.backTag {
+  background: #fff !important;
+}
+
+.el-textarea__inner,
+.el-input__inner {
+  height: 45px;
+  border: 1px solid #e4e4e4;
+  border-radius: 0;
+
+  &:focus {
+    border: 1px solid #e4e4e4;
+  }
+}
+
+.el-select {
+  .el-input__inner {
+    &:focus {
+      border: 2px solid #e4e4e4;
+    }
+  }
+}
+
+.el-select>.el-input.is-focus>.el-input__inner {
+  &:focus {
+    border: 2px solid #e4e4e4;
+  }
+}
+
+
+
+
+// .input_placeholder 动画
+.input_placeholder_up {
+  -webkit-animation: focus 0.25s ease;
+  animation: focus 0.25s ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.input_placeholder_down {
+  -webkit-animation: blur 0.25s ease;
+  animation: blur 0.25s ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes focus {
+  0% {
+    top: 18px;
+  }
+
+  100% {
+    top: -10px;
+  }
+}
+
+@-webkit-keyframes blur {
+  0% {
+    top: -10px;
+  }
+
+  100% {
+    top: 18px;
+  }
+}
+
+.el-select-dropdown__list>.el-select-dropdown__item {
+  height: 25px;
+  line-height: 25px;
+  padding: 0 15px;
+}
+
+.el-select-dropdown__item.hover {
+  color: #f7a900;
+}
+
+.title_bold {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.row {
+  margin: 0;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+
+}
+
+.content_cont {
+  // padding: 0 15px;
+}
+
+@media screen and (min-width: 1170px) {
+  .jss31 {
+    width: 24%;
+  }
+}
+
+@media screen and (min-width: 992px)and (max-width: 1170px) {
+  .jss31 {
+    width: 32%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .jss31 {
+    width: 48%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .jss31 {
+    width: 46%;
+  }
+
+  .t_container {
+    width: 100%;
+    margin-top: 48px;
+
+    .t_title {
+      font-size: 21px !important;
+    }
+
+    .size_container {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+  }
+
+  .flickity-viewport {
+    height: 574px !important;
+  }
+
+
+
+  .banner_img {
+    width: 100% !important;
+
+    height: 100% !important;
+
+
+  }
+
+  .grid {
+    margin-left: 0;
+  }
+
+  .product-single__title {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .info_box {
+    padding: 0 50px !important;
+  }
+}
+
+.product-single__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.flickity-viewport {
+  height: 649.844px;
+}
+
+.tab_content {
+  position: fixed;
+  top: 0;
+  /* bottom: 0; */
+  width: 100%;
+  animation-name: contMove;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.tab_content_hidden {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  /* animation-name:contMove; */
+  animation-name: contMoveHidden;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.details_bottom {
+  margin-bottom: 200px;
+}
+
+button {
+  border: none;
+}
+
+ul,
+ol {
+  padding: 0px;
+  margin: auto;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #667280;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*已经访问过的链接*/
+a:visited {
+  text-decoration: none !important;
+}
+
+/*鼠标划过(停留)的链接*/
+a:hover {
+  text-decoration: none !important;
+  // color: #000 !important;
+}
+
+/* 正在点击的链接，鼠标在元素上按下还没有松开*/
+a:active {
+  text-decoration: none !important;
+}
+
+/* 获得焦点的时候 鼠标松开时显示的颜色*/
+a:focus {
+  text-decoration: none !important;
+}
+
+.el-message-box {
+  width: 700px;
+}
+
+.el-button {
+  border: none;
+  color: #606200;
+
+  &:hover {
+    color: #606200;
+    background: #fff;
+  }
+}
+
+.el-message-box__btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.el-button--primary {
+  background: #fff;
+  color: #606200;
+
+  &:hover {
+    color: #606200;
+    background: #fff;
+  }
+}
+
+.button_primary {
+  background: #fff !important;
+  color: #606200 !important;
+}
+
+.el-backtop {
+  border-radius: 0;
+  background: #eee;
+  z-index: 99999 !important;
+}
+
+.show_dialog_box {
+  width: 200px;
+  border: 1px solid #da2a2c;
+  padding-bottom: 0;
+}
+
+.el-message-box__container {
+  font-size: 16px;
+  color: #222;
+  font-weight: bold;
+}
+
+.el-message-box__header {
+  padding: 0 !important;
+}
